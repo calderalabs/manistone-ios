@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files of the 'Manistone' target in the 'Manistone' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <CoreLocation/CoreLocation.h>
+	#import <MapKit/MapKit.h>
+	#import <Three20/Three20.h>
+	#import <Three20Core/NSDateAdditions.h>
+	#import <Three20UI/UIViewAdditions.h>
+	#import <extThree20JSON/extThree20JSON.h>
+	#import "MSDefaultStyleSheet.h"
+	#import <Three20Core/NSArrayAdditions.h>
+    #import "TTViewController+MSAdditions.h"
+#endif
